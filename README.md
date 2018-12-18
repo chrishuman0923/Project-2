@@ -12,4 +12,5 @@ SecondHand Treasure is an app where people can post items they will like to sell
 
 ## Notes
 - Our deployed application is hosted by Heroku and can be found [here](https://pacific-taiga-59947.herokuapp.com/).
-- Our GitHub code repository can be found [here](https://github.com/ShemikaKW/Project-2).
+- The original GitHub code repository can be found [here](https://github.com/ShemikaKW/Project-2).
+- My forked version of the repo can be found [here](https://github.com/chrishuman0923/secondHandTreasures).
