@@ -1,16 +1,46 @@
-# Fab Four
+# Second Hand Treasures
 
-## GATech Coding Bootcamp: **Fab Four**
+This application was designed to allow small organizations like HOA's and local communities to host a "Marketplace" to post items that local members had for sale. A deployed version of our application can be found on Heroku [here](https://pacific-taiga-59947.herokuapp.com/).
 
-Team Members: Jamie Rodriquez, Chris Human, Phillip Grider, Shemika Williams
+## Functionality
 
-Group Name: Fab Four
-
-Group Responsibilities:  All members will contribute to the JavaScript/JQuery code.  Additionally, the team will also jump in to help each other as needed.
-
-SecondHand Treasure is an app where people can post items they will like to sell, they can also purchase items from other users.
+A user has the ability to create an account on the site which uses password hashing and authentication to verify each user. A user can post items to the site to be sold.
 
 ## Notes
-- Our deployed application is hosted by Heroku and can be found [here](https://pacific-taiga-59947.herokuapp.com/).
+
 - The original GitHub code repository can be found [here](https://github.com/ShemikaKW/Project-2).
-- My forked version of the repo can be found [here](https://github.com/chrishuman0923/secondHandTreasures).
+
+## Getting Started
+
+1. `npm install`
+2. Create MySQL database named *SecondHand_TreasuresDB*
+3. `npm run start`
+4. Create account / Login
+5. Browse Items
+6. Purchase Item
+7. Post Item
+
+## Technologies Used
+- HTML 5
+- CSS 3
+- Bootstrap
+- Javascript
+- JQuery
+- Node.js
+- Express.js
+- NPM
+- Travis CI
+- Handlebars
+- MySQL
+- Sequelize
+- Bcrypt
+- ENV variables
+
+
+## Future Enhancements
+
+- Add an admin section to manage users and items
+- Add user profile section for users to manage their individual accounts
+- Password recovery
+- Add item shopping cart
+- Add email confirmation for purchases
